@@ -75,9 +75,7 @@ Paper 1/
 │   ├── normalize_and_analyze_results.py
 │   ├── plot_comprehensive_metrics.py
 │   └── plot_metrics.py
-└── Resources/                      # Paper assets and references
-    ├── reference.bib
-    └── Research Paper.pdf
+
 ```
 
 ## Usage
@@ -126,9 +124,7 @@ The analysis scripts provide:
 3. **Dominant Factors**: Network topology and control plane response time are more critical than algorithm choice
 4. **Recovery Bottleneck**: Link failure detection and rule installation dominate recovery time, not path computation
 
-## Research Paper
 
-Full details available in `Resources/Research Paper.pdf`
 
 ## System Requirements
 
@@ -160,36 +156,3 @@ sudo kill -9 <PID>
 # Run with sudo
 sudo python3 run_full_experiment.py
 ```
-
-## Citation
-
-If you use this research in your work, please cite:
-
-```bibtex
-@article{sdn_routing_comparison_2025,
-  title={Comparative Analysis of Dijkstra and Bellman-Ford Algorithms in SDN Failure Recovery},
-  author={[Your Name]},
-  journal={[Journal Name]},
-  year={2025}
-}
-```
-
-## License
-
-[Specify your license here - e.g., MIT, GPL, Apache 2.0]
-
-## Authors
-
-[Your Name and Affiliations]
-
-## Acknowledgments
-
-- Mininet team for the network emulation platform
-- Ryu SDN Framework developers
-- [Any other acknowledgments]
-
-## Contact
-
-For questions or collaboration:
-- Email: [your.email@example.com]
-- GitHub Issues: [Link to issues page]
